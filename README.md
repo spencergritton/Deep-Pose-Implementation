@@ -9,7 +9,7 @@ Human Pose Estimation identifies and classifies the poses of human body parts an
 ![Example Pose](docs/example-pose.png)
 
 # Deep Pose Model
-As mentioned above, the Deep Pose model was one of the first deep learning based approaches to human pose estimation. This network takes as input a 224x224 RBG image and outputs normalized (x, y) coordinates along with a visibility value for 17 separate joints labelled in the COCO dataset. For further information on the Deep Pose model, please see the [Deep Pose Paper](https://openaccess.thecvf.com/content_cvpr_2014/papers/Toshev_DeepPose_Human_Pose_2014_CVPR_paper.pdf).
+As mentioned above, the Deep Pose model was one of the first deep learning based approaches to human pose estimation. This network takes as input a 224x224 RBG image and outputs normalized (x, y) coordinates along with a visibility value for 17 separate joints labelled in the COCO dataset. For further information on the Deep Pose model, please see the [Deep Pose Paper](https://openaccess.thecvf.com/content_cvpr_2014/papers/Toshev_DeepPose_Human_Pose_2014_CVPR_paper.pdf) or ![Our Paper](Project-Report.pdf).
 
 # Implementation Details
 Our implementation differs from the original Deep Pose implementation in a few key areas:
