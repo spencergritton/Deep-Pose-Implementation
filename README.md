@@ -40,11 +40,11 @@ The *pose estimator*:
 # Run the Code
 Our code is broken into two separate jupyter notebooks, a [dataset generator](dataset-generator.ipynb) and the [pose estimation network](pose-estimator.ipynb). To run these notebooks perform the following:
 
-**Install Python 3 and Jupyter Notebook**
+**Install Python 3 and Jupyter Notebook**  
 I'll leave you to do this yourself.
 
-**Install Required Dependencies**
+**Install Required Dependencies**  
 ``pip3 install -r requirements.txt``
 
-**Run the Code**
+**Run the Code**  
 Each jupyter notebook should be setup to run and with (hopefully) adequate comments to describe the contents of the code.
