@@ -20,4 +20,31 @@ Our implementation differs from the original Deep Pose implementation in a few k
 
 For further implementation details, see our write-up on this project ![here](Project-Report.pdf).
 
-# Utilization of this Repository
+# This Repository
+This repository is primarily a host of our code — which is separated into two separate jupyter notebooks, a [dataset generator](dataset-generator.ipynb) and the [pose estimation network](pose-estimator.ipynb).
+
+The *dataset generator* is used to:
+1. Download the COCO dataset
+2. Extract relevant keypoint annotated images
+3. Normalize, transform, and scale images and their associated keypoints
+4. Break the data into training and testing sections
+5. Export the data to a compact format utilized by the *pose estimation model*
+
+The *pose estimator*:
+1. Creates relevant PyTorch models for the data
+2. Unpacks the data from the dataset generator and applies data augmentations
+3. Implements the Deep Pose network in PyTorch
+4. Trains the Deep Pose model
+5. Evaluates the Percentage of Correct Parts (PCP) accuracy of the model
+
+# Run the Code
+Our code is broken into two separate jupyter notebooks, a [dataset generator](dataset-generator.ipynb) and the [pose estimation network](pose-estimator.ipynb). To run these notebooks perform the following:
+
+**Install Python 3 and Jupyter Notebook**
+I'll leave you to do this yourself.
+
+**Install Required Dependencies**
+``pip3 install -r requirements.txt``
+
+**Run the Code**
+Each jupyter notebook should be setup to run and with (hopefully) adequate comments to describe the contents of the code.
