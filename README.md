@@ -38,7 +38,7 @@ The *pose estimator*:
 5. Evaluates the Percentage of Correct Parts (PCP) accuracy of the model
 
 # Run the Code
-Our code is broken into two separate jupyter notebooks, a [dataset generator](dataset-generator.ipynb) and the [pose estimation network](pose-estimator.ipynb). To run these notebooks perform the following:
+To run the [dataset generator](dataset-generator.ipynb) or [pose estimation network](pose-estimator.ipynb) notebooks perform the following:
 
 **Install Python 3 and Jupyter Notebook**  
 I'll leave you to do this yourself.
